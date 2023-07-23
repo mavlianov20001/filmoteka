@@ -1,0 +1,18 @@
+@import "../../../../shared/scss/libs/variables";
+.ReviewsItem {
+  &__title {
+    font-weight: 700;
+    color: $primary-bg-color;
+    font-size: 22px;
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+  &__text {
+    color: $primary-text-color;
+    margin-bottom: 20px;
+  }
+  &__date {
+    color: $gray-color;
+    margin-bottom: 20px;
+  }
+}

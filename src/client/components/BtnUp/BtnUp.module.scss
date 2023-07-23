@@ -1,0 +1,36 @@
+@import "../../../shared/scss/libs/variables";
+.wrapper {
+  position: relative;
+}
+.BtnUp {
+  width: 40px;
+  background-color: none;
+  transform: translate(20px 30px);
+  cursor: pointer;
+}
+
+.scrollInvisible {
+  display: none;
+}
+.scrollVisible {
+  display: block;
+}
+.ScrollBtn {
+  position: fixed;
+  right: 50px;
+  bottom: 80px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.9s;
+  background-color: transparent;
+  outline: none;
+  &:hover {
+    transition: all 0.9s;
+    transform: translateY(-20px);
+  }
+  svg {
+    border-radius: 50%;
+    fill: white;
+    background-color: $main-color;
+  }
+}

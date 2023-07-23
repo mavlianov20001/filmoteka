@@ -1,0 +1,22 @@
+@import "../../../shared/scss/libs/variables";
+.Footer {
+  display: flex;
+
+  align-items: center;
+
+  width: 100%;
+  min-height: 64px;
+
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  background-color: $main-color;
+  color: $primary-text-color;
+  a {
+    color: $primary-text-color;
+    display: block;
+    margin-left: auto;
+  }
+}

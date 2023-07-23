@@ -1,0 +1,32 @@
+/* @import "./shared/styles/styles.scss"; */
+body {
+  font-family: "Roboto", sans-serif;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+}
+.App {
+  /* background: linear-gradient(#050b15, rgb(19, 17, 117)); */
+  background-color: black;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.56);
+  overflow-y: scroll;
+}
+
+.hidden {
+  display: none;
+}

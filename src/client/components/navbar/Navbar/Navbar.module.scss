@@ -1,0 +1,41 @@
+@import "../../../../shared/scss/libs/variables";
+.navbar {
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.56),
+      rgba(0, 0, 0, 0.56)
+    ),
+    url("../../../../image/header-background-desktop.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 140px;
+  width: 100%;
+  // position: fixed;
+  padding-top: 43px;
+  // z-index: 1000;
+}
+.logo {
+  cursor: pointer;
+  fill: #fff;
+}
+
+.title {
+  display: block;
+  font-size: 28px;
+  margin-left: 20px;
+  color: #fff;
+  &:hover {
+    color: #ff6b01;
+  }
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}

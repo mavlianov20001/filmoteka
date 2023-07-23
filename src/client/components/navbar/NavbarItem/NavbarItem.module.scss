@@ -1,0 +1,11 @@
+@import "../../../../shared/scss/libs/variables";
+.navItem {
+  font-size: 20px;
+  line-height: 1;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: $primary-text-color;
+  &:hover {
+    color: #ff6b01;
+  }
+}
