@@ -1,0 +1,19 @@
+@import "../../../shared/scss/libs/variables";
+.LoadMoreBtn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 2px;
+
+  cursor: pointer;
+
+  background-color: #ff6b01;
+  color: $primary-text-color;
+  &:hover {
+    background: $primary-text-color;
+    color: $primary-bg-color;
+  }
+}
